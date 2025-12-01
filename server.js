@@ -4,7 +4,7 @@ import { PORT } from "./config/env.js";
 import { initDatabase } from "./db/db.js";
 import appRouter from "./routes/deku.routes.js";
 import rateLimiter from "./middleware/rateLimiter.js";
-import job from "./config/env.js";
+import job from "./config/cron.js";
 
 const app = express();
 
